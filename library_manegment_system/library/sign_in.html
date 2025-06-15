@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SIGN UP</title>
+    <link rel="stylesheet" href="sign_in.css">
+</head>
+
+<body>
+    <script>
+        function validateInputs() {
+            // Input field values
+            const firstName = document.getElementById("firstName").value.trim();
+            const lastName = document.getElementById("lastName").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const password = document.getElementById("password").value;
+            const confirmPassword = document.getElementById("confirmPassword").value;
+            const submitButton = document.getElementById("submitButton");
+
+            // Regular expression for validating email format
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+            // Validation logic
+            const isFormValid =
+                firstName &&
+                lastName &&
+                emailRegex.test(email) &&
+                password.length >= 6 &&
+                password === confirmPassword;
+
+            // Enable or disable the Submit button
+            submitButton.disabled = !isFormValid;
+        }
+
+        function validateForm() {
+            alert("Form submitted successfully!");
+            return true; // Allow form submission
+        }
+
+        function goToHome() {
+            location.replace("file:///D:/omar/MSA/2nd%20year/web/library/main.html");
+        }
+    </script>
+
+    <div class="inbut">
+        <h1>اقِۡرًاۡ</h1>
+        <form onsubmit="return validateForm()">
+            <div class="inout-box">
+                <h4>ENTER THE FIRST NAME:</h4>
+                <input type="text" id="firstName" placeholder="First Name" required class="bar" oninput="validateInputs()">
+            </div>
+            <div class="inout-box">
+                <h4>ENTER THE LAST NAME:</h4>
+                <input type="text" id="lastName" placeholder="Last Name" required class="bar" oninput="validateInputs()">
+            </div>
+            <div class="inout-box">
+                <h4>ENTER YOUR EMAIL:</h4>
+                <input type="text" id="email" placeholder="Email" required class="bar" oninput="validateInputs()">
+            </div>
+            <div class="inout-box">
+                <h4>ENTER YOUR PASSWORD:</h4>
+                <input type="password" id="password" placeholder="Password" required class="bar" oninput="validateInputs()">
+            </div>
+            <div class="inout-box">
+                <h4>PLEASE RE-ENTER YOUR PASSWORD:</h4>
+                <input type="password" id="confirmPassword" placeholder="Confirm Password" required class="bar" oninput="validateInputs()">
+            </div>
+            <div class="rrr">
+                <div class="btn">
+                    <!-- Button initially disabled -->
+                    <button type="submit" id="submitButton" disabled>Submit</button>
+                </div>
+                <div class="btn bttnn">
+                    <button type="button" onclick="goToHome()">HOME</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

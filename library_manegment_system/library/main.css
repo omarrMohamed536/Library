@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.iqraa{
+
+    
+ 
+      font-family: "Reem Kufi", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700px;
+      font-style: normal;
+      font-size: 34px;
+    
+    
+}
+.main{
+   border-style: none;
+   border-color: rgb(5, 5, 5);
+   border-left: 10%;
+   background-color:rgb(255, 214, 154);
+  padding: 25px;
+  display: flex;
+  align-items: center;
+ 
+  
+}
+.right{
+   
+   word-spacing: 40px;
+    text-align: right;
+    position: relative;
+    left: 1630px;
+}
+.bttn{
+    background-color:coral;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 20px;
+   
+}
+.link a {
+    font-size: 30px;
+    position: relative;
+    left: 950px;
+    padding: 8px 50px;
+  text-decoration: none;
+  border-radius: 15px;
+  color: black;
+  font-family: "Jaro", serif;
+  font-optical-sizing: 15px;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.bttn a:hover{
+   background-color:rgb(136, 114, 85);
+}
+.right :hover{
+    background-color:rgb(136, 114, 85);
+    color: black;
+}
+
+
+
+
+
+
+
+
+.image{
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    right: 180px;
+   
+}
+.link :hover{
+    background-color:rgb(136, 114, 85);
+ }
+.landing-page{
+    display: flex;
+    background-color: rgb(255, 214, 154);
+    justify-content: space-between;
+    padding: 25px 32px;
+    align-items: center;
+    color: black;
+    border-radius: 0 0 50px 50px;
+}
+.landing-page-search input{
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 47px;
+    padding: 0 10px;
+    
+}
+.landing-page-search button{
+    border-radius: 50px;
+    padding: 11px 32px;
+    position: absolute;
+    left: 188px;
+  
+}
+.landing-page-search button:hover{
+    background-color:rgb(136, 114, 85);
+ }
+.hook{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.PP{
+    padding-bottom: 50px;
+}
+.welcome{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+.trending-header button{
+   border-radius: 40px;
+   padding: 10px 18px;
+   font-size: 17px;
+}
+.trending-header button:hover{
+    background-color:rgb(136, 114, 85);
+ }
+ .trending-header {
+    padding: 25px 50px;
+ }
+ .trending-header h1 {
+    
+    margin-top: 0;
+ }
+ .trending{
+display: flex;
+justify-content: space-between;
+
+ }
+ .trending-header span{
+    color: brown;
+font-size: 14px;
+ }
+ .card{
+  
+    width: 300px;
+   
+    
+ }
+.image1{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+}
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    align-items: center;
+    padding: 5px 25px;
+    border-radius:0 0 10px 10px;
+}
+.card-info img{
+   width: 50px;
+   justify-content: space-between;
+}
+.trending-crads{
+    display: flex;
+    gap: 170px;
+}
+.trending-crads img :hover{
+    background-color:rgb(136, 114, 85);
+}
+
+
+
+.big {
+    width: 1000px;
+    height: 300px;
+    background-color: rgb(207, 206, 189);
+  
+position:relative;
+left: 400px;
+border-radius: 50px;
+
+}
+.big-big{
+    justify-content: center;
+    justify-items: center;
+   
+}
+.big button{
+    border-radius: 30px;
+    padding: 10px 18px;
+    font-size: 17px;
+    height: 29px;
+    justify-content: center;
+}
+ .bttn :hover{
+  background-color:rgb(136, 114, 85);
+}
+.image11{
+    width: 90px;
+    height: 110px;
+    border-radius: 8px;
+   
+}
+.card2{
+    position: relative;
+    left: 70px;
+}
+.big-cards{
+    display: flex;
+    gap: 170px;
+}
+.bttn button :hover{
+    background-color:rgb(136, 114, 85);
+}
+
+
+
+
+.space{
+    width:1000px;
+    height: 100px;
+    background-color: white;
+}
+
+.bord{
+    height: 200px;
+    width:2010px;
+    background-color: rgb(223, 184, 169);
+    margin: none;
+}
+.aaaa a{
+    display: flex;
+}
+

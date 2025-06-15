@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Lora:ital,wght@0,400..700;1,400..700&family=Reem+Kufi:wght@400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>IQRAA-Main</title>
+</head>
+
+<body>
+    <script>
+      function myfunction()
+      {
+        location.replace("file:///D:/omar/MSA/2nd%20year/web/library/Project%20Shop%20Page.html")
+      }
+      function myfunction2()
+      {
+        location.replace("file:///D:/omar/MSA/2nd%20year/web/library/main.html")
+      }
+      function myfunction3()
+      {
+        location.replace("file:///D:/omar/MSA/2nd%20year/web/library/login.html")
+      }
+      function myfunction4()
+      {
+        location.replace("file:///D:/omar/MSA/2nd%20year/web/library/sign_in.html")
+      }
+      
+    function searchBooks() {
+        const input = document.querySelector(".landing-page-search input").value.toLowerCase();
+        const cards = document.querySelectorAll(".card, .card2"); // Select all book cards
+
+        cards.forEach(card => {
+            const title = card.querySelector("h3").innerText.toLowerCase();
+            const genre = card.querySelector("p, h5").innerText.toLowerCase();
+
+            if (title.includes(input) || genre.includes(input)) {
+                card.style.display = "block"; // Show matching cards
+            } else {
+                card.style.display = "none"; // Hide non-matching cards
+            }
+        });
+    }
+</script>
+
+    </script>
+    <!-- header -->
+    <div class="main">
+        <div class="iqraa">
+            <h1>اقِۡرًاۡ</h1>
+        </div>
+        <div class="right">
+            <button class="bttn"  button onclick="myfunction4()">SIGN UP</button>
+
+        </div>
+        <div class="link">
+            <a href="#" button onclick="myfunction2()">HOME</a>
+            <a href="#" class="shopp" button onclick="myfunction()">SHOP</a>
+            <a href="#" class="loginn" button onclick="myfunction3()">LOGIN</a>
+        </div>
+    </div>
+    <!-- /header -->
+
+
+    <!--landing page-->
+    <div class="landing-page">
+        <div>
+            <span class="welcome">
+                Welcome To IQRAA..
+            </span>
+            <div class="hook">
+                <h1>
+                    Your Favourate Library!
+                </h1>
+            </div>
+
+            <p class="PP">
+                IQRAA is a free library contans every book you need.<br>
+                you can purchase or download any book you would like.<br>
+                please have a GREAT EXPERINCE!
+            </p>
+            <div class="landing-page-search">
+                <input placeholder="Start typing..." onkeyup="searchBooks()" />
+                <button class="bttn" onclick="searchBooks()">SEARCH</button>
+            </div>
+            
+        </div>
+        <div>
+            <img src="ahmed khaled t.jpg" class="image">
+        </div>
+    </div>
+    <!--/landing page-->
+
+
+    <!--trending books-->
+    <div class="trending-header">
+        <span>
+            TRENDING
+        </span>
+        <div class="trending">
+
+            <h1>
+                TRENDING BOOKS
+            </h1>
+            <button class="bttn">
+                veiw all
+            </button>
+
+        </div>
+        <div class="trending-crads">
+            <div class="card">
+                <img src="one.jpg" class="image1" />
+                <div class="card-info">
+                    <div class="card-name">
+                        <p>
+                            suspense
+                        </p>
+
+                        <h3>
+                            The Fault In Our Stars
+                        </h3>
+                    </div>
+                    <a>
+                        <img src="images.jpeg" />
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <img src="two.jpg" class="image1" />
+                <div class="card-info">
+                    <div class="card-name">
+                        <p>
+                            action
+                        </p>
+
+                        <h3>
+                            Harry Potter And The Death Hallows
+                        </h3>
+                    </div>
+                    <a>
+                        <img src="images.jpeg" />
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <img src="three.jpg" class="image1" />
+                <div class="card-info">
+                    <div class="card-name">
+                        <p>
+                            History
+                        </p>
+
+                        <h3>
+                            Imagine Me
+                        </h3>
+                    </div>
+                    <a>
+                        <img src="images.jpeg" />
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <img src="four.jpg" class="image1" />
+                <div class="card-info">
+                    <div class="card-name">
+                        <p>
+                            action
+                        </p>
+
+                        <h3>
+                            H.O.T.D A Game Of Thrones
+                        </h3>
+                    </div>
+                    <a>
+                        <img src="images.jpeg" />
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+    <br>
+
+
+    <div class="big">
+        <div class="big-big">
+            <span>
+                top books
+            </span>
+            <div class="trending">
+
+                <h1>
+                    MOST PURCHASED
+                </h1>
+                <button class="bttn">
+                    veiw all
+                </button>
+
+
+            </div>
+        </div>
+        <div class="big-cards">
+            <div class="card2">
+                <div>
+                    <img src="elon musk.jpeg.jpg" class="image11">
+                </div>
+                <h5>
+                    ADVENTURE
+                </h5>
+                <h3>
+                    Elon Musk
+                </h3>
+                <button class="bttn">
+                    Explore
+                </button>
+            </div>
+
+
+            <div class="card2">
+                <div>
+                    <img src="a journey.jpg" class="image11">
+                </div>
+                <h5>
+                    ADVENTURE
+                </h5>
+                <h3>
+                    A Journy
+                </h3>
+                <button class="bttn">
+                    Explore
+                </button>
+            </div>
+
+
+            <div class="card2">
+                <div>
+                    <img src="ahmed khaled t.jpg" class="image11">
+                </div>
+                <h5>
+                    ADVENTURE
+                </h5>
+                <h3>
+                    مثل ايكاروس
+                </h3>
+                <button class="bttn">
+                    Explore
+                </button>
+            </div>
+
+
+            <div class="card2">
+                <div>
+                    <img src="three.jpg" class="image11">
+                </div>
+                <h5>
+                    ADVENTURE
+                </h5>
+                <h3>
+                    Imagine Me
+                </h3>
+                <button class="bttn">
+                    Explore
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="space">
+
+    </div>
+
+
+
+    <div class="last">
+        <div class="bord">
+            <div class="aaaa">
+                <a>
+                    Having Any truple?
+                </a>
+                <a href="#">
+                    contact us
+                </a>
+
+                <a href="#">
+                    Help
+                </a>
+               
+            </div>
+            made by:
+            <div class="names">
+                omar mohamed ahmed ammar
+                <br>
+                Ahmed Mohamed Tarek
+                <br>
+                Malak Ayman
+            </div>
+            <div class="id">
+                249153
+                225119
+                247423
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

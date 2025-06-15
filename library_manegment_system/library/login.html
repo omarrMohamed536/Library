@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>IQRAA-library</title>
+    <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="login.php" method="POST">
+            <h1>
+                <div class="iqraa">
+                    <h1>أَهْلًا بِكَ فِي اقِۡرًاۡ</h1>
+                </div>
+                Login
+            </h1>
+                <div style="color: red;"?= htmlspecialchars($error) ?></div>
+            <div class="inout-box">
+                <input type="text" name="username" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="inout-box">
+                <input type="password" name="password" placeholder="Password" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <br>
+            <button class="btn" type="submit">Login</button>
+            <div class="regestir-link">
+                <a href="sign_in.html">Register now!</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<head>
+    <title>IQRAA Shop </title>
+    <link rel="stylesheet" href="ProjectShopPage.css">
+</head>
+
+<body>
+    <script>
+        function myfunction2()
+        {
+          location.replace("file:///D:/omar/MSA/2nd%20year/web/library/main.html")
+        }
+      </script>
+      <script>
+        function searchBooks() {
+            const input = document.getElementById("searchInput").value.toLowerCase();
+            const books = document.querySelectorAll(".shopbooks .book");
+    
+            books.forEach(book => {
+                const title = book.querySelector(".Name h3").innerText.toLowerCase();
+                const genre = book.querySelector(".Name p").innerText.toLowerCase();
+    
+                if (title.includes(input) || genre.includes(input)) {
+                    book.style.display = "block"; // Show matching books
+                } else {
+                    book.style.display = "none"; // Hide non-matching books
+                }
+            });
+        }
+    </script>
+    
+    
+    <div class="head">
+        <a class="btn"   button onclick="myfunction2()">IQRAA</a>
+    </div>
+    <div class="h2">
+        <div class="left">
+            <span>Welcome to IQRAA! </span>
+            <p>Here in the shop you can buy any book</p>
+            <p>IQRAA is a vibrant website that combines education, inspiration, and convenience.
+                Alongside offering insightful articles and resources to foster knowledge and creativity,
+                IQRAA also features an online shopping platform.
+                This makes it a one-stop destination for learning and purchasing
+                a variety of products, providing users with a seamless and enriching experience.
+            </p>
+            <div class="search">
+                <input id="searchInput" placeholder="Start typing..." onkeyup="searchBooks()" />
+                <button class="btn" onclick="searchBooks()">SEARCH</button>
+            </div>            
+        </div>
+        <div class="pic">
+            <img src="image.jpg">
+        </div>
+    </div>
+    <div class="books">
+        <span>Books</span>
+        <div class="btnheader">
+            <h2>All Books</h1>
+                <button class="btn">view all</button>
+        </div>
+        <div class="shopbooks">
+            <div class="book">
+                <img src="two.jpg">
+                <div class="info">
+                    <div class="Name">
+                        <p>Thriller.</p>
+                        <h3>Harry Potter And The Deathly Hallows.</h3>
+                    </div>
+                    <a>
+                        <img src="images.jpeg">
+                    </a>
+                </div>
+            </div>
+            <div class="book">
+                <img src="three.jpg">
+                <div class="info">
+                    <div class="Name">
+                        <p>Drama.</p>
+                        <h3>Imagine Me.</h3>
+                    </div>
+                    <a>
+                        <img src="images.jpeg">
+                    </a>
+                </div>
+            </div>
+            <div class="book">
+                <img src="four.jpg">
+                <div class="info">
+                    <div class="Name">
+                        <p>Action.</p>
+                        <h3>Game Of Thrones.</h3>
+                    </div>
+                    <a>
+                        <img src="images.jpeg">
+                    </a>
+                </div>
+            </div>
+            <div class="book">
+                <img src="one.jpg">
+                <div class="info">
+                    <div class="Name">
+                        <p>Romance.</p>
+                        <h3>The Fault In Our Stars.</h3>
+                    </div>
+                    <a>
+                        <img src="images.jpeg">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="shopbooks">
+            <div class="book">
+                <img src="fractal_noise.jpeg">
+                <div class="info">
+                    <div class="Name">
+                        <p>Thriller.</p>
+                        <h3>Fractal Noise.</h3>
+                    </div>
+                    <a>
+                        <img src="images.jpeg">
+                    </a>
+                </div>
+            </div>
+            <div class="book">
+                <img src="fugitive_telemetry.jpg">
+                <div class="info">
+                    <div class="Name">
+                        <p>Science Fiction.</p>
+                        <h3>Fugitive Telemetry.</h3>
+                    </div>
+                    <a>
+                        <img src="images.jpeg">
+                    </a>
+                </div>
+            </div>
+            <div class="book">
+                <img src="a journey.jpg">
+                <div class="info">
+                    <div class="Name">
+                        <p>Politics.</p>
+                        <h3>A journey (My Political Life).</h3>
+                    </div>
+                    <a>
+                        <img src="images.jpeg">
+                    </a>
+                </div>
+            </div>
+            <div class="book">
+                <img src="ashes_of_man.jpeg">
+                <div class="info">
+                    <div class="Name">
+                        <p>Drama.</p>
+                        <h3>Ashes Of Man.</h3>
+                    </div>
+                    <a>
+                        <img src="images.jpeg">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="shopbooks">
+            <div class="book">
+                <img src="assassin_of_reality.jpg">
+                <div class="info">
+                    <div class="Name">
+                        <p>Thriller.</p>
+                        <h3>Assassin Of Reality.</h3>
+                    </div>
+                    <a>
+                        <img src="images.jpeg">
+                    </a>
+                </div>
+            </div>
+            <div class="book">
+                <img src="curiosity_house.jpg">
+                <div class="info">
+                    <div class="Name">
+                        <p>Romance.</p>
+                        <h3>Curiosity House.</h3>
+                    </div>
+                    <a>
+                        <img src="images.jpeg">
+                    </a>
+                </div>
+            </div>
+            <div class="book">
+                <img src="elon musk.jpeg.jpg">
+                <div class="info">
+                    <div class="Name">
+                        <p>Biography.</p>
+                        <h3>Elon Musk.</h3>
+                    </div>
+                    <a>
+                        <img src="images.jpeg">
+                    </a>
+                </div>
+            </div>
+            <div class="book">
+                <img src="the_remedy.jpg">
+                <div class="info">
+                    <div class="Name">
+                        <p>Drama.</p>
+                        <h3>The Remedy.</h3>
+                    </div>
+                    <a>
+                        <img src="images.jpeg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="space">
+
+    </div>
+
+
+
+    <div class="last">
+        <div class="bord">
+            <div class="aaaa">
+                <a>
+                    Having Any truple?
+                </a>
+                <a href="#">
+                    contact us
+                </a>
+
+                <a href="#">
+                    Help
+                </a>
+               
+            </div>
+            made by:
+            <div class="names">
+                omar mohamed ahmed ammar
+                <br>
+                Ahmed Mohamed Tarek
+                <br>
+                Malak Ayman
+            </div>
+            <div class="id">
+                249153
+                225119
+                247423
+
+            </div>
+
+        </div>
+
+    </div>
+</body>

@@ -1,0 +1,139 @@
+.head {
+    background-color: rgb(255, 214, 154);
+    padding: 7px 15px;
+    font-style: italic;
+    margin: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+a {
+    padding: 5px 15px;
+    font-size: x-large;
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+
+}
+
+.btn:hover {
+    background-color: rgb(239, 156, 30);
+    border-radius: 15px;
+}
+
+.h2 {
+    justify-content: space-between;
+    display: flex;
+    padding: 7px 15px;
+    background-color: rgb(255, 214, 154);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: rgb(4, 4, 4);
+    align-items: center;
+    font-style: italic;
+}
+
+.left {
+    width: 500px;
+}
+
+.search input {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search button {
+    position: absolute;
+    left: 170px;
+    background-color: rgb(170, 6, 6);
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+    color: rgb(255, 214, 154);
+    height: 32px;
+}
+
+.pic img {
+    border-radius: 20px;
+    width: 170px;
+}
+
+.books {
+    padding: 7px 15px;
+}
+
+.books span {
+    color: brown;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.books h2 {
+    margin-top: 0%;
+}
+
+.btnheader button {
+    background-color: rgb(170, 6, 6);
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+    color: rgb(255, 214, 154);
+    height: 32px;
+}
+
+.btnheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopbooks {
+    display: flex;
+    gap: 150px;
+    padding-bottom: 50px;
+   
+}
+.book {
+    width: 330px;
+ 
+}
+
+.book img {
+    width: 330px;
+    border-radius: 20px;
+    height: 350px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 214, 154);
+    padding: 5px 5px;
+    border-radius: 20px;
+    height: 100px;
+}
+
+.info img {
+    width: 50px;
+    height: 50px;
+}
+
+.space{
+    width:1000px;
+    height: 100px;
+    background-color: white;
+}
+
+.bord{
+    height: 200px;
+    width:2010px;
+    background-color: rgb(223, 184, 169);
+    margin: none;
+}
+.aaaa a{
+    display: flex;
+}
